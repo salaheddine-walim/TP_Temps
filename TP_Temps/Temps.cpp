@@ -10,6 +10,7 @@ Temps::Temps()
 }
 
 Temps::Temps(int h, int m, int s)
+
 {
 	this->heure = h;
 	this->minute = m;
