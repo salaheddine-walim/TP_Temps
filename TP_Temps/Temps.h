@@ -1,4 +1,7 @@
 #pragma once
+#include <iostream>
+#include <string.h>
+using namespace std;
 class Temps
 {
 private:
@@ -8,5 +11,7 @@ private:
 public :
 	Temps();
 	Temps(int, int, int);
+	string fr();
+	void eng();
 };
 
