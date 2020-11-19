@@ -2,10 +2,13 @@
 //
 
 #include <iostream>
+#include "Temps.h"
 
 int main()
 {
-    std::cout << "Hello World!\n";
+	Temps t(12,20,20);
+	std::cout << t.fr() << std::endl;
+	t.eng();
 }
 
 // Exécuter le programme : Ctrl+F5 ou menu Déboguer > Exécuter sans débogage
